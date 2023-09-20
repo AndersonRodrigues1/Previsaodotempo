@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="./clima.css">
+    <script src="./clima.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="conteiner">
+        <div class="tempo">
+                <label for="busca de cidades"></label>
+                <input type="text" id="BuscarCidade">
+                <button type="submit" onclick="buscarTempoCidades()"><i class="fas fa-search"></i></button>
+            
+        </div>
+
+        <div class="RetornoBusca">
+            <div id="nuvem">
+                <!-- <div><i class="fa-solid fa-cloud" style="color: #095ef1;"></i></div> -->
+                <div id="tempo">clear</div>
+            </div>
+
+            <div class="dados">
+                <div id="climaTempo">25°C</div>
+                <div id="cidadePesquisa">Atibaia</div>
+                <div class="data">
+                <div id="diaCidade">09/07/2022</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

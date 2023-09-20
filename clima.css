@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner {
+    width: 80%;
+    border: red none;
+
+}
+#BuscarCidade {
+    /* width: 250px; */
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding-left: 10px;
+
+}
+button {
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.tempo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2px;
+    border-radius: 10px;
+    /* border:black none; */
+}
+.RetornoBusca {
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+#nuvem {
+   padding: 30px;
+}
+.dados {
+    max-width: 100%;
+    flex-wrap:nowrap;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+#climaTempo {
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    /* border: solid red; */
+    padding: 10px;
+}
+#cidadePesquisa {
+    background-color: black;
+    /* border: solid red; */
+    padding: 10px;
+}
+.data {
+    background-color: aquamarine;
+    /* border: solid red; */
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media only screen and (min-width:700px) {
+    .conteiner {
+        width: 40%;
+        
+    }
+}
+@media only screen and (max-width:380px) {
+    .dados {
+        flex-wrap:wrap;
+        display: block;
+        border-bottom-left-radius: 10px;
+    }
+   .data {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    }
+}
