@@ -1,6 +1,6 @@
 # Previsao do tempo
 
-Criei um app simples para previsão do tempo
+Criei um app simples para previsão do tempo [ HTML - CSS - JAVASCRIPT ]
 
 https://andersonrodrigues1.github.io/Previsaodotempo/
 
